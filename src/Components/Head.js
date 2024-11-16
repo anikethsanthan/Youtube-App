@@ -13,8 +13,12 @@ const Head = () => {
     <div className='grid grid-flow-col p-3 m-4 shadow-lg'>
 
       <div className='col-span-1 justify-evenly  '>
-        <p><i className="fa-solid fa-bars fa-lg "></i> </p>
-        <img  onClick={handleToggle}  className='w-32 -mt-9 pl-4 ' src="./youtube-head-logo.webp" alt="logo"></img>
+        <div className='cursor-pointer w-1/2 z-10'>
+        <p><i className="fa-solid fa-bars fa-lg cursor-pointer "></i> </p>
+        </div>
+        <div>
+        <img  onClick={handleToggle}  className='w-32 -mt-9 pl-4 -z-10' src="./youtube-head-logo.webp" alt="logo"></img>
+        </div>
       </div>
 
       <div className='col-span-10 pl-40'>
@@ -25,8 +29,7 @@ const Head = () => {
       </div >
         
       <div className='col-span-1'>
-      <i className="fa-regular fa-bell fa-lg "></i>
-      <i className="fa-solid fa-user fa-lg"></i>
+      <i className="fa-solid fa-user fa-lg flex justify-end mt-3"></i>
 
       </div>
     </div>
