@@ -34,7 +34,7 @@ const Head = () => {
     setSuggestion(json[1])
     dispatch(cacheResults({
       [searchQuery]:json[1]
-    }))
+     }))
   }
 
   const handleToggle=()=>{
