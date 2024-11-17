@@ -14,3 +14,4 @@ export const list=[{name:"All"},
 export const YOUTUBE_VIDEO_API= "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="+Google_API_Key;
 
 
+export const Youtube_Search_Api="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q="
